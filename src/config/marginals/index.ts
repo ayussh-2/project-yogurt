@@ -1,13 +1,13 @@
 export const navItems = [
   // { name: 'Home', href: '/' },
   // { name: 'About', href: '#about' },
-  { name: 'Stats', href: '/#stats' },
+  // { name: 'Stats', href: '/#stats' },
   { name: 'Prizes', href: '/#prizes' },
   { name: 'Timeline', href: '/#timeline' },
   { name: 'Sponsors', href: '/#sponsors' },
   { name: 'FAQs', href: '/#faqs' },
   { name: 'Brochure', href: '/brochure' },
-  // { name: 'Coming Soon', href: '/#' },
+  { name: 'Tracks', href: '/tracks' },
 ];
 
 export const logo = {
@@ -80,6 +80,7 @@ export const FOOTER_TEXT = 'Crafted with ❤️ by HackNITR Team';
 export const playgroundMenu = [
   { name: 'Home', href: '/' },
   { name: 'Playground', href: '/playground' },
+
   // { name: 'Admin', href: '/admin' },
   // { name: 'Fonts', href: '/fonts' },
   // { name: 'Typography', href: '/typography' },

@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 
 import { Plus } from 'lucide-react';
 
+import { useAccordionResize } from '@/hooks/use-accordion-resize';
+
 import Typography from '../Typography';
 
 type DropdownProps = {
@@ -23,6 +25,8 @@ export const Dropdown: React.FC<DropdownProps> = ({
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isHover, setIsHover] = useState(false);
+
+  useAccordionResize(isOpen, 200);
 
   const answerStyle = `absolute left-5 right-5 bg-white rounded-t-2xl z-1 mt-5
             transition-all duration-200 ease-in ${!isOpen ? 'h-8' : finalHeightAnswer} 
